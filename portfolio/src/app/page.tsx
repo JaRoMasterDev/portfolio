@@ -57,7 +57,7 @@ export default function Home() {
           <p>
             If you want to reach out to me, you can send me an email to <br />
             <a href="mailto:contact@jarne-rolf.de">contact@jarne-rolf.de</a>.
-            <br />I am open to collaboration and other requests!
+            <br />I am open to collaborations and other requests!
           </p>
         </div>
       </section>
