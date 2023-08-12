@@ -10,7 +10,7 @@ export default function Home() {
       <NavBar />
       <section className={styles.content}>
         <div className={styles.title}>
-          <h1>JaRoMaster</h1>
+          <h1>Jarne Rolf</h1>
           <h2>Web and app development</h2>
         </div>
         <div className={styles.container}>
