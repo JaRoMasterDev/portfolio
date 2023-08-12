@@ -1,0 +1,36 @@
+.container {
+  margin-top: -1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 256px;
+}
+
+.project .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.project img {
+  width: 56px;
+  height: 56px;
+}
+
+.project h3 {
+  font-weight: 500;
+}
+
+.project .tooltip {
+  max-width: 256px;
+  font-weight: 300;
+}

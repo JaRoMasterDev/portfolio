@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 56px;
+  width: 100vw;
+  padding: 0 32px;
+
+  background-color: var(--secondary);
+}
+
+.socialmedia {
+  display: flex;
+  gap: 16px;
+}
+
+.socialmedia li {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  height: 100%;
+}
+
+.links li {
+  display: flex;
+  height: 100%;
+}
+
+.links li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 12px;
+}
+
+.links li a:hover {
+  background-color: var(--accent);
+  display: flex;
+  height: 100%;
+}

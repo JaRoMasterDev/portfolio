@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.description {
+  max-width: 512px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.content p {
+  white-space: pre-wrap;
+}
