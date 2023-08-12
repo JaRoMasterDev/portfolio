@@ -72,3 +72,17 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+
+.contact {
+  margin-left: 2rem;
+  min-width: 300px;
+  margin-right: 40rem;
+}
+
+.contact a {
+  color: var(--accent);
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}

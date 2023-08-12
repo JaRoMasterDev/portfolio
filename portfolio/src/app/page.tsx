@@ -52,6 +52,14 @@ export default function Home() {
             </Content>
           </div>
         </div>
+        <div className={styles.contact}>
+          <h2 id="contact">Contact</h2>
+          <p>
+            If you want to reach out to me, you can send me an email to <br />
+            <a href="mailto:contact@jarne-rolf.de">contact@jarne-rolf.de</a>.
+            <br />I am open to collaboration and other requests!
+          </p>
+        </div>
       </section>
     </main>
   );
