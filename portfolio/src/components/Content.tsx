@@ -1,5 +1,3 @@
-"use client";
-
 import * as React from "react";
 import styles from "./Content.module.css";
 import { ReactNode } from "react";
@@ -16,14 +14,7 @@ export function Content(props: IContentProps) {
     <div className={styles.container}>
       <h2 id={props.id}>{props.title}</h2>
       <div className={styles.content}>
-        <p
-          style={{
-            width:
-              window.innerWidth > 750 ? props.text.length * 1.5 : undefined,
-          }}
-        >
-          {props.text}
-        </p>
+        <p>{props.text}</p>
         {props.children}
       </div>
     </div>
