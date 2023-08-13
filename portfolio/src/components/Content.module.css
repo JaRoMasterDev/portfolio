@@ -17,3 +17,18 @@
 .content p {
   white-space: pre-wrap;
 }
+
+@media screen and (max-width: 750px) {
+  .content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .container h2 {
+    padding-top: 112px;
+  }
+
+  .content p {
+    max-width: 100%;
+  }
+}
