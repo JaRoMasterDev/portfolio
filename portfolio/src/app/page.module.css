@@ -76,7 +76,7 @@
 .contact {
   margin-left: 2rem;
   min-width: 300px;
-  margin-right: 40rem;
+  margin-right: 50vw;
 }
 
 .contact a {
@@ -85,4 +85,10 @@
 
 .contact a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 750px) {
+  .content {
+    padding-top: 56px;
+  }
 }

@@ -33,7 +33,7 @@ export default function Home() {
           <div className={styles.divider}></div>
           <div className={styles.row}>
             <Content
-              id="education"
+              id="projects"
               title="Projects"
               text={
                 "I worked on several projects of different sizes and complexities. \nHereafter, I am going to represent my favorite projects. \nFurther projects can be seen on my GitHub."
