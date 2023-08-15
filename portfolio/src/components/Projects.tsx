@@ -28,7 +28,7 @@ export function Projects(props: IProjectsProps) {
   return (
     <div className={styles.container}>
       <Project
-        href="https://workout-planner-website.vercel.app/"
+        href="https://mygainplan.jarne-rolf.de/"
         src={"/ic_launcher.png"}
         name={"MyGainplan"}
         description={
