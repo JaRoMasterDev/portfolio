@@ -43,6 +43,14 @@ export function Projects(props: IProjectsProps) {
           "A 3D solar system animation which completely runs in the browser. This website uses WebGL and Three.js."
         }
       />
+      <Project
+        href="https://playground.jarne-rolf.de"
+        src={"/developer.png"}
+        name={"Playground"}
+        description={
+          "A page where I listed some small projects I worked on for fun that faced me with unique and interesting challanges."
+        }
+      />
     </div>
   );
 }

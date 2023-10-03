@@ -29,6 +29,15 @@ export default function Home() {
                 "I am currently in school and I will probably get my Abitur in June 2024. \nOn the side I work at a local company as a junior software developer. The team I work in works on a mobile app built with React-Native. \nAfter my graduation, I plan to do a year abroad to gather experience living alone and financing my own life. After that year, I am probably going to study computer science at an university."
               }
             ></Content>
+            <Content
+              id="skills"
+              title="Skills"
+              text={
+                "Over the past years I was learning several skills including multuiple programming languages and concepts. Some of my most developed skills are"
+              }
+            >
+              <Skills />
+            </Content>
           </div>
           <div className={styles.divider}></div>
           <div className={styles.row}>
@@ -40,15 +49,6 @@ export default function Home() {
               }
             >
               <Projects />
-            </Content>
-            <Content
-              id="skills"
-              title="Skills"
-              text={
-                "Over the past years I was learning several skills including multuiple programming languages and concepts. Some of my most developed skills are"
-              }
-            >
-              <Skills />
             </Content>
           </div>
         </div>
