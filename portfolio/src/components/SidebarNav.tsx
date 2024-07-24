@@ -56,12 +56,14 @@ export default function SidebarNav() {
   useEffect(() => {
     const sections = Array.from(document.querySelectorAll("section"));
 
+    const windowHeight = window.innerHeight;
+
     window.addEventListener("scroll", () => {
       const scrollPosition = window.scrollY;
       let selectedId = "";
       sections.forEach((section) => {
         const { offsetTop } = section;
-        if (offsetTop - 400 <= scrollPosition) {
+        if (offsetTop <= scrollPosition + windowHeight / 2) {
           selectedId = section.id;
         }
       });
