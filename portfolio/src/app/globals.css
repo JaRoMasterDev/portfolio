@@ -1,49 +1,7 @@
-:root {
-  --border-radius: 12px;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  --text: #000000;
-  --background: #edfdf4;
-  --primary: #117e44;
-  --secondary: #aaf3cc;
-  --accent: #19b863;
+html {
+    scroll-behavior: smooth;
 }
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --text: #edfdf4;
-    --background: #000000;
-    --primary: #117e44;
-    --secondary: #010402;
-    --accent: #7dedb1;
-  }
-} */
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html,
-body {
-  max-width: 100vw;
-  max-height: 100vh;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
-
-body {
-  color: var(--text);
-  background: var(--background);
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-} */
