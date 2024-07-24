@@ -11,7 +11,7 @@ import AnimatedCards from "./TechstackAnimatedCards";
 
 export default function TechStack() {
   return (
-    <section className="w-full pt-16 md:pt-24" id="tech-stack">
+    <section className="w-full pb-16 md:pb-24" id="tech-stack">
       <h2 className="text-3xl mb-2">What tech stack I use</h2>
       <p className="mb-6">
         My current tech stack consists of next.js and react-native for the

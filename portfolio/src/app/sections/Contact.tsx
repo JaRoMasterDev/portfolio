@@ -25,7 +25,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="w-full pt-16 md:pt-24 pb-48">
+    <section id="contact" className="w-full pb-48">
       <h2 className="text-3xl mb-2">Contact</h2>
       <p>
         If you want to get in touch with me, feel free to send me an email at{" "}

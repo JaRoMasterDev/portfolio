@@ -8,7 +8,7 @@ import Project from "@/app/sections/Project";
 
 export default function Projects() {
   return (
-    <section id="projects" className="w-full pt-16 md:pt-24">
+    <section id="projects" className="w-full pb-16 md:pb-24">
       <h2 className="text-3xl mb-2">What I have worked on</h2>
       <p>Here are some projects I have worked on over the past years</p>
       <Project

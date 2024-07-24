@@ -3,9 +3,9 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="w-full pt-16 md:pt-24">
+    <section id="about" className="w-full py-16 md:py-24">
       <h2 className="text-3xl mb-2">Who I am</h2>
-      <div className="flex flex-col gap-2 leading-7">
+      <div className="flex flex-col gap-3 leading-7">
         <p>
           I am an 18 year old student from Germany who has just finished his
           Abitur with a focus on mathematics and computer science. Over the last
