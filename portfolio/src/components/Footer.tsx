@@ -8,14 +8,14 @@ export interface IFooterProps {}
 
 export default function Footer() {
   return (
-    <footer className="relative bg-gray-800 w-full py-8 px-12 xl:px-16 flex justify-between items-center z-50">
-      <div className="text-gray-400">
+    <footer className="relative bg-gray-800 w-full py-8 px-12 xl:px-16 flex flex-col md:flex-row justify-between items-center z-50 gap-8">
+      <div className="text-gray-400 flex flex-col items-center md:items-start">
         <p>Jarne Rolf</p>
         <Link href={"mailto:contact@jarne-rolf.de"} className="underline">
           contact@jarne-rolf.de
         </Link>
       </div>
-      <div className="flex flex-col items-end gap-3">
+      <div className="flex flex-col items-center md:items-end gap-3">
         <div className="flex flex-row gap-5">
           <Link
             href="https://www.instagram.com/mygainplan_app/"
