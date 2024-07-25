@@ -19,16 +19,13 @@ export default function Project({
 }) {
   const [hovering, setHovering] = useState<boolean>(false);
   return (
-    <div
+    <Link
+      href={link}
       className="flex flex-row gap-8 mt-16"
       onMouseOver={() => setHovering(true)}
       onMouseOut={() => setHovering(false)}
     >
-      <Link
-        href={link}
-        target="_blank"
-        className="relative w-[100px] md:w-[150px] h-[100px] md:h-[150px]"
-      >
+      <div className="relative w-[100px] md:w-[150px] h-[100px] md:h-[150px]">
         <Image
           src={image}
           alt={title}
@@ -41,13 +38,11 @@ export default function Project({
             className={`transition-all duration-500 ${hovering ? "opacity-100" : "opacity-0 rounded-[25%]"}`}
           />
         )}
-      </Link>
+      </div>
       <div className="flex flex-1 flex-col">
-        <Link href={link} target="_blank">
-          <h3 className="text-xl">{title}</h3>
-        </Link>
+        <h3 className="text-xl">{title}</h3>
         <p>{description}</p>
       </div>
-    </div>
+    </Link>
   );
 }
