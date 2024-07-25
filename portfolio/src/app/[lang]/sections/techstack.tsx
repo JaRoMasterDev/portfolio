@@ -1,24 +1,20 @@
 import Image from "next/image";
-import NextJS from "../../../public/nextjs-logo.svg";
-import ReactLogo from "../../../public/react-logo.svg";
-import MySQL from "../../../public/mysql-logo.svg";
-import NodeJS from "../../../public/nodejs-logo.svg";
-import TSLogo from "../../../public/ts-logo.svg";
-import GitHub from "../../../public/github-logo.svg";
-import Docker from "../../../public/docker-logo.svg";
+import NextJS from "../../../../public/nextjs-logo.svg";
+import ReactLogo from "../../../../public/react-logo.svg";
+import MySQL from "../../../../public/mysql-logo.svg";
+import NodeJS from "../../../../public/nodejs-logo.svg";
+import TSLogo from "../../../../public/ts-logo.svg";
+import GitHub from "../../../../public/github-logo.svg";
+import Docker from "../../../../public/docker-logo.svg";
 import StackCard from "./TechstackCard";
 import AnimatedCards from "./TechstackAnimatedCards";
+import { Dictionary } from "@/get-dictionary";
 
-export default function TechStack() {
+export default function TechStack({ dict }: { dict: Dictionary["techstack"] }) {
   return (
     <section className="w-full pb-16 md:pb-24" id="tech-stack">
-      <h2 className="text-3xl mb-2">What tech stack I use</h2>
-      <p className="mb-6">
-        My current tech stack consists of next.js and react-native for the
-        frontend and node.js with express.js for the backend. I use MySQL for my
-        databases and TypeScript as my preferred programming language. To store
-        and host my projects, I use GitHub and Docker.
-      </p>
+      <h2 className="text-3xl mb-2">{dict.whatTechStack}</h2>
+      <p className="mb-6">{dict.description}</p>
       <div className="flex flex-row items-end  w-full md:w-1/2 relative">
         <StackCard className="py-2 translate-y-1/2 max-w-[45%]">
           <Image src={MySQL} alt={"mysql"} className={"h-full"} />
@@ -57,10 +53,7 @@ export default function TechStack() {
           </StackCard>
         </div>
       </div>
-      <p className="mt-12 mb-6">
-        Besides that I also have experience with several other technologies and
-        programming languages such as Java, C#, Python, Unity and Three.js.
-      </p>
+      <p className="mt-12 mb-6">{dict.subdescription}</p>
       <AnimatedCards />
     </section>
   );

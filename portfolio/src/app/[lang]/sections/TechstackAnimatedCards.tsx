@@ -1,10 +1,10 @@
 import StackCard from "./TechstackCard";
 import Image from "next/image";
-import JavaLogo from "../../../public/java-logo.svg";
-import CSLogo from "../../../public/cs-logo.svg";
-import PythonLogo from "../../../public/python-logo.svg";
-import UnityLogo from "../../../public/unity-logo.svg";
-import ThreeJSLogo from "../../../public/threejs-logo.svg";
+import JavaLogo from "../../../../public/java-logo.svg";
+import CSLogo from "../../../../public/cs-logo.svg";
+import PythonLogo from "../../../../public/python-logo.svg";
+import UnityLogo from "../../../../public/unity-logo.svg";
+import ThreeJSLogo from "../../../../public/threejs-logo.svg";
 
 const cards: React.ReactNode[] = [
   <StackCard key="java" className="p-3 min-w-48">

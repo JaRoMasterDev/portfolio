@@ -1,0 +1,53 @@
+{
+  "title": {
+    "frontend": "frontend",
+    "backend": "backend",
+    "web": "web",
+    "mobile": "mobiel",
+    "development": "ontwikkeling"
+  },
+  "about": {
+    "whoIAm": "Wie ben ik",
+    "school": "Ik ben een 18-jarige student uit Duitsland die net zijn middelbare schooldiploma (Abitur) heeft behaald met een focus op wiskunde en informatica. De afgelopen 4 jaar heb ik vaardigheden opgebouwd in verschillende ontwikkelingsgebieden met een focus op web- en app-ontwikkeling. Ik heb gewerkt aan verschillende projecten, waarvan enkele hieronder worden weergegeven.",
+    "work": "Daarnaast werk ik sinds 2021 als junior ontwikkelaar bij een lokaal bedrijf, een paar uur per week, terwijl ik op school zat. Daar werk ik aan een mobiele app gebouwd met react-native.",
+    "university": "Vanaf herfst 2025 ga ik informatica studeren aan de universiteit. Tot die tijd ga ik wat tijd doorbrengen met reizen door Spanje, terwijl ik mijn baan als junior ontwikkelaar behoud. Daarnaast kijk ik ernaar uit om geweldige mensen te ontmoeten en aan enkele zijprojecten te werken om mijn vaardigheden te verbeteren."
+  },
+  "projects": {
+    "whatIHaveWorkedOn": "Waar ik aan heb gewerkt",
+    "description": "Hier zijn enkele projecten waaraan ik de afgelopen jaren heb gewerkt",
+    "mygainplan": {
+      "title": "MyGainplan",
+      "description": "Een op sociale media gebaseerde fitness-app die gebruikers helpt bij het beheren en bijwerken van hun trainingsplannen. MyGainplan is gebouwd met react-native, MySQL, node.js en express.js en is tot nu toe mijn grootste zijproject."
+    },
+    "animatedSolarSystem": {
+      "title": "Geanimeerd 3D Zonnestelsel",
+      "description": "Een geanimeerd 3D zonnestelsel gemaakt met Three.js dat de draaisnelheid van de planeten om de zon en om hun eigen as visualiseert. Ik heb dit project gebouwd tijdens een stage bij een webontwikkelingsbedrijf."
+    },
+    "playground": {
+      "title": "Speeltuin",
+      "description": "Dit is een pagina waar ik dingen laat zien die ik heb uitgeprobeerd en minigames die ik heb gebouwd, die me hebben geconfronteerd met allerlei nieuwe en interessante uitdagingen"
+    }
+  },
+  "techstack": {
+    "whatTechStack": "Welke technologiestapel ik gebruik",
+    "description": "Mijn huidige technologiestapel bestaat uit next.js en react-native voor de frontend en node.js met express.js voor de backend. Ik gebruik MySQL voor mijn databases en TypeScript als mijn favoriete programmeertaal. Voor het opslaan en hosten van mijn projecten gebruik ik GitHub en Docker.",
+    "subdescription": "Daarnaast heb ik ook ervaring met verschillende andere technologieën en programmeertalen zoals Java, C#, Python, Unity en Three.js."
+  },
+  "contact": {
+    "contact": "Contact",
+    "description": "Als je contact met me wilt opnemen, voel je vrij om me een e-mail te sturen naar {email} of het contactformulier hieronder te gebruiken.",
+    "name": "Naam",
+    "email": "E-mail",
+    "message": "Bericht",
+    "send": "Verstuur"
+  },
+  "nav": {
+    "about": "Wie ben ik",
+    "projects": "Projecten",
+    "techstack": "Technologiestapel",
+    "contact": "Contact"
+  },
+  "footer": {
+    "madeWith": "Gemaakt met {heart} door {name}"
+  }
+}

@@ -1,6 +1,7 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { RefObject, useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import type { Dictionary } from "@/get-dictionary";
 
 function ListItem({
   href,
@@ -42,16 +43,16 @@ function ListItem({
   );
 }
 
-const sections: { id: string; title: string }[] = [
-  { id: "about", title: "Who I am" },
-  { id: "projects", title: "What I have worked on" },
-  { id: "tech-stack", title: "What tech stack I use" },
-  { id: "contact", title: "Contact" },
-];
-
-export default function SidebarNav() {
+export default function SidebarNav({ dict }: { dict: Dictionary["nav"] }) {
   const [selectedId, setSelectedId] = useState("about");
   const [isOpen, setIsOpen] = useState(false);
+
+  const sections = useRef<{ id: string; title: string }[]>([
+    { id: "about", title: dict.about },
+    { id: "projects", title: dict.projects },
+    { id: "tech-stack", title: dict.techstack },
+    { id: "contact", title: dict.contact },
+  ]);
 
   useEffect(() => {
     const sections = Array.from(document.querySelectorAll("section"));
@@ -78,7 +79,7 @@ export default function SidebarNav() {
       <ul
         className={`absolute pl-6 xl:pl-8 -left-[7px] w-auto xl:w-72 flex flex-col self-center justify-center gap-6 overflow-hidden xl:bg-transparent bg-opacity-90 h-screen ${isOpen ? "bg-gray-100" : ""}`}
       >
-        {sections.map((section) => (
+        {sections.current.map((section) => (
           <ListItem
             key={section.id}
             href={`#${section.id}`}

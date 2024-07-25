@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { Dictionary } from "@/get-dictionary";
+import { insertElement } from "@/insertElement";
 
-export default function Contact() {
+export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
   async function handleSubmit(e: any) {
     e.preventDefault();
     const response = await fetch("https://api.web3forms.com/submit", {
@@ -26,13 +28,19 @@ export default function Contact() {
 
   return (
     <section id="contact" className="w-full pb-48">
-      <h2 className="text-3xl mb-2">Contact</h2>
+      <h2 className="text-3xl mb-2">{dict.contact}</h2>
       <p>
-        If you want to get in touch with me, feel free to send me an email at{" "}
-        <Link href="mailto:contact@jarne-rolf.de" className="text-primary">
-          contact@jarne-rolf.de
-        </Link>{" "}
-        or use the contact form below.
+        {insertElement(dict.description, {
+          email: (
+            <Link
+              href="mailto:contact@jarne-rolf.de"
+              className="text-primary"
+              key="link"
+            >
+              contact@jarne-rolf.de
+            </Link>
+          ),
+        })}
       </p>
       <form
         className="flex flex-col gap-4 mt-16 max-w-xl mx-auto"
@@ -41,26 +49,26 @@ export default function Contact() {
         <input
           type="text"
           name="name"
-          placeholder="Name"
+          placeholder={dict.name}
           className="p-2 border border-gray-300 rounded-md focus:border-primary focus:outline-none focus:border-2"
           required
         />
         <input
           type="email"
           name="email"
-          placeholder="Email"
+          placeholder={dict.email}
           className="p-2 border border-gray-300 rounded-md focus:border-primary focus:outline-none focus:border-2"
           required
         />
         <textarea
           name="message"
-          placeholder="Message"
+          placeholder={dict.message}
           rows={4}
           className="p-2 border border-gray-300 rounded-md focus:border-primary focus:outline-none focus:border-2"
           required
         />
         <button type="submit" className="bg-primary text-white p-2 rounded-md">
-          Send
+          {dict.send}
         </button>
       </form>
     </section>

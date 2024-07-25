@@ -1,0 +1,53 @@
+{
+  "title": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "web": "Web",
+    "mobile": "Mobile",
+    "development": "Entwicklung"
+  },
+  "about": {
+    "whoIAm": "Wer ich bin",
+    "school": "Ich bin ein 18-jähriger Schüler aus Deutschland, der gerade sein Abitur mit den Leistungskursen Mathematik und Informatik abgeschlossen hat. In den letzten 4 Jahren habe ich Fähigkeiten in verschiedenen Bereichen der Entwicklung mit einem Schwerpunkt auf Web- und App-Entwicklung aufgebaut. Ich habe an verschiedenen Projekten gearbeitet, von denen einige unten dargestellt sind.",
+    "work": "Außerdem arbeite ich seit 2021 für ein paar Stunden pro Woche als Junior-Entwickler bei einem lokalen Unternehmen, während ich in der Schule bin. Dort arbeite ich an einer mobilen App, die mit react-native entwickelt wird.",
+    "university": "Ab Herbst 2025 werde ich Informatik an einer Universität studieren. Bis dahin werde ich einige Zeit damit verbringen, durch Spanien zu reisen, während ich meinen Job als Junior-Entwickler beibehalte. Außerdem freue ich mich darauf, neue Leute kennenzulernen und an einigen Hobby-Projekten zu arbeiten, um meine Fähigkeiten zu verbessern"
+  },
+  "projects": {
+    "whatIHaveWorkedOn": "Was ich programmiert habe",
+    "description": "Dies sind einige Projekte, an denen ich über die letzten Jahre gearbeitet habe.",
+    "mygainplan": {
+      "title": "MyGainplan",
+      "description": "Eine auf Social Media basierende Fitness-App, die Benutzern hilft, ihre Trainingspläne zu verwalten und zu aktualisieren. MyGainplan ist mit react-native, MySQl, node.js und express.js entwickelt und ist mein bisher größtes Nebenprojekt."
+    },
+    "animatedSolarSystem": {
+      "title": "3D-Sonnensystem",
+      "description": "Ein animiertes 3D-Sonnensystem, das mit Three.js erstellt wurde und die Rotationsgeschwindigkeit der Planeten um die Sonne und um ihre eigene Achse visualisiert. Ich habe dieses Projekt während eines Praktikums bei einem Webentwicklungsunternehmen entwickelt."
+    },
+    "playground": {
+      "title": "Playground",
+      "description": "Ein Ort, an dem ich Dinge ausprobiere und Minispiele zeige, die ich gebaut habe, die mich mit allen möglichen neuen und interessanten Herausforderungen konfrontiert haben"
+    }
+  },
+  "techstack": {
+    "whatTechStack": "Welchen Tech-Stack ich benutze",
+    "description": "Mein aktueller Tech-Stack besteht aus next.js und react-native für das Frontend und node.js mit express.js für das Backend. Ich verwende MySQL für meine Datenbanken und TypeScript als bevorzugte Programmiersprache. Um meine Projekte zu speichern und zu hosten, verwende ich GitHub und Docker.",
+    "subdescription": "Außerdem habe ich Erfahrung mit mehreren anderen Technologien und Programmiersprachen wie Java, C#, Python, Unity und Three.js."
+  },
+  "contact": {
+    "contact": "Kontakt",
+    "description": "Wenn Sie mit mir in Kontakt treten möchten, können Sie mir gerne eine E-Mail an {email} senden oder das unten stehende Kontaktformular verwenden.",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Senden"
+  },
+  "nav": {
+    "about": "Wer ich bin",
+    "projects": "Projekte",
+    "techstack": "Tech Stack",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "madeWith": "Made with {heart} by {name}"
+  }
+}

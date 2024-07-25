@@ -1,0 +1,53 @@
+{
+  "title": {
+    "frontend": "frontend",
+    "backend": "backend",
+    "web": "web",
+    "mobile": "mobile",
+    "development": "development"
+  },
+  "about": {
+    "whoIAm": "Who I am",
+    "school": "I am an 18 year old student from Germany who has just finished his high school degree (Abitur) with a focus on mathematics and computer science. Over the last 4 years I have built skills in several fields of development with a focus on web and app development. I have worked on several projects, some of which you are displayed below.",
+    "work": "Besides that I have been working as a junior developer at a local company since 2021 for a few hours a week while I was in school. There, I am working on a mobile app built with react-native.",
+    "university": "From Autumn 2025 I'll be studying computer science at a university. Until then, I am going to spend some time travelling through Spain while keeping my job as a junior developer. In addition to that, I am looking forward to meeting awesome people and working on some side projects to improve my skills."
+  },
+  "projects": {
+    "whatIHaveWorkedOn": "What I have worked on",
+    "description": "Here are some projects I have worked on over the past years",
+    "mygainplan": {
+      "title": "MyGainplan",
+      "description": "A social media based fitness app that helps users manage and update their workout plans. MyGainplan is build with react-native, MySQl, node.js and express.js and is my biggest side project so far."
+    },
+    "animatedSolarSystem": {
+        "title": "Animated 3D Solar System",
+        "description": "An animated 3D solar system created using Three.js that visualises the planets rotating speed around the sun and their own axis. I have built this project during an internship at a web development company."
+        },
+    "playground": {
+      "title": "Playground",
+      "description": "This is a page where I showcase this I've tried out and minigames I have built that have faced me with all kinds of new and interesting challenges"
+    }
+  },
+  "techstack": {
+    "whatTechStack": "What tech stack I use",
+    "description": "My current tech stack consists of next.js and react-native for the frontend and node.js with express.js for the backend. I use MySQL for my databases and TypeScript as my preferred programming language. To store and host my projects, I use GitHub and Docker.",
+    "subdescription": "Besides that I also have experience with several other technologies and programming languages such as Java, C#, Python, Unity and Three.js."
+  },
+  "contact": {
+    "contact": "Contact",
+    "description": "If you want to get in touch with me, feel free to send me an email at {email} or use the contact form below.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  },
+  "nav": {
+    "about": "Who I am",
+    "projects": "Projects",
+    "techstack": "Tech Stack",
+    "contact": "Contact"
+  },
+  "footer": {
+    "madeWith": "Made with {heart} by {name}"
+  }
+}

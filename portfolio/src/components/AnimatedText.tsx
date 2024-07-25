@@ -36,7 +36,7 @@ export default function AnimatedText({ words }: AnimatedTextProps) {
         }, 100);
       }
     }
-  }, [text, words]);
+  }, [text]);
 
   return <>{text}</>;
 }

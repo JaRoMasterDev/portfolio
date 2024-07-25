@@ -1,0 +1,53 @@
+{
+  "title": {
+    "frontend": "frontend",
+    "backend": "backend",
+    "web": "web",
+    "mobile": "móvil",
+    "development": "desarrollo"
+  },
+  "about": {
+    "whoIAm": "Quién soy",
+    "school": "Soy un estudiante alemán de 18 años que acaba de terminar su diploma de escuela secundaria (Abitur) con un enfoque en matemáticas e informática. En los últimos 4 años he desarrollado habilidades en varios campos del desarrollo con un enfoque en desarrollo web y de aplicaciones. He trabajado en varios proyectos, algunos de los cuales se muestran a continuación.",
+    "work": "Además, he estado trabajando como desarrollador junior en una empresa local desde 2021 durante unas horas a la semana mientras estaba en la escuela. Allí, estoy trabajando en una aplicación móvil construida con react-native.",
+    "university": "A partir del otoño de 2025 estudiaré informática en la universidad. Hasta entonces, voy a pasar algún tiempo viajando por España mientras conservo mi trabajo como desarrollador junior. Además de eso, estoy deseando conocer gente increíble y trabajar en algunos proyectos secundarios para mejorar mis habilidades."
+  },
+  "projects": {
+    "whatIHaveWorkedOn": "En lo que he trabajado",
+    "description": "Aquí hay algunos proyectos en los que he trabajado en los últimos años",
+    "mygainplan": {
+      "title": "MyGainplan",
+      "description": "Una aplicación de fitness basada en redes sociales que ayuda a los usuarios a gestionar y actualizar sus planes de entrenamiento. MyGainplan está construida con react-native, MySQL, node.js y express.js y es mi proyecto secundario más grande hasta ahora."
+    },
+    "animatedSolarSystem": {
+      "title": "Sistema Solar 3D Animado",
+      "description": "Un sistema solar 3D animado creado con Three.js que visualiza la velocidad de rotación de los planetas alrededor del sol y sobre su propio eje. He construido este proyecto durante una pasantía en una empresa de desarrollo web."
+    },
+    "playground": {
+      "title": "Área de juegos",
+      "description": "Esta es una página donde muestro cosas que he probado y minijuegos que he construido que me han enfrentado a todo tipo de nuevos e interesantes desafíos"
+    }
+  },
+  "techstack": {
+    "whatTechStack": "Qué tecnologías uso",
+    "description": "Mi conjunto de tecnologías actual consiste en next.js y react-native para el frontend y node.js con express.js para el backend. Utilizo MySQL para mis bases de datos y TypeScript como mi lenguaje de programación preferido. Para almacenar y alojar mis proyectos, uso GitHub y Docker.",
+    "subdescription": "Además de eso, también tengo experiencia con varias otras tecnologías y lenguajes de programación como Java, C#, Python, Unity y Three.js."
+  },
+  "contact": {
+    "contact": "Contacto",
+    "description": "Si deseas ponerte en contacto conmigo, no dudes en enviarme un correo electrónico a {email} o utilizar el formulario de contacto a continuación.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar"
+  },
+  "nav": {
+    "about": "Quién soy",
+    "projects": "Proyectos",
+    "techstack": "Tecnologías",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "madeWith": "Hecho con {heart} por {name}"
+  }
+}
