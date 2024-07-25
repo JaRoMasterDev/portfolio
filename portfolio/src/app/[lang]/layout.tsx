@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import type { Locale } from "@/i18n-config";
 import { getDictionary } from "@/get-dictionary";
 import LocaleSwitcher from "@/components/locale-switcher";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +37,7 @@ export default async function RootLayout({
         <main className="w-full">
           {children} <Footer dict={dict.footer} />
         </main>
+        <Analytics />
       </body>
     </html>
   );
