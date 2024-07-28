@@ -7,6 +7,7 @@ import type { Locale } from "@/i18n-config";
 import { getDictionary } from "@/get-dictionary";
 import LocaleSwitcher from "@/components/locale-switcher";
 import { Analytics } from "@vercel/analytics/next";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,13 @@ export default async function RootLayout({
 
   return (
     <html lang={params.lang}>
+      <Head>
+        <link
+          rel="canonical"
+          href="https://www.jarne-rolf.de"
+          key="canonical"
+        />
+      </Head>
       <body className={inter.className + " flex flex-row"}>
         <LocaleSwitcher lang={params.lang} />
         <SidebarNav dict={dict.nav} />
