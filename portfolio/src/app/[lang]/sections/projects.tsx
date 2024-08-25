@@ -1,6 +1,7 @@
 import React from "react";
 import MyGainplan from "../../../../public/MyGainplanScreenshot.jpeg";
 import MyGainplanIcon from "../../../../public/MyGainplanIcon.png";
+import MovieNightIcon from "../../../../public/movienight-icon.svg";
 import SolarSystemIcon from "../../../../public/SolarSystemIcon.png";
 import SolarSystemScreenshot from "../../../../public/SolarSystemScreenshot.jpeg";
 import PlaygroundIcon from "../../../../public/PlaygroundIcon.png";
@@ -18,6 +19,12 @@ export default function Projects({ dict }: { dict: Dictionary["projects"] }) {
         link="https://my-gainplan.com"
         image={MyGainplanIcon}
         hoverImage={MyGainplan}
+      />
+      <Project
+        title={dict.moviematch.title}
+        description={dict.moviematch.description}
+        link="https://movie-match.jarne-rolf.de"
+        image={MovieNightIcon}
       />
       <Project
         title={dict.animatedSolarSystem.title}

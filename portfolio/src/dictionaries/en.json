@@ -19,6 +19,10 @@
       "title": "MyGainplan",
       "description": "A social media based fitness app that helps users manage and update their workout plans. MyGainplan is build with react-native, MySQl, node.js and express.js and is my biggest side project so far."
     },
+    "moviematch": {
+      "title": "Movie Match",
+      "description": "A web app that helps you and your partner to find a movie you can watch on your next movie night based on your preferences. Movie Match is built with next.js and TypeScript and uses the TMDb API to fetch movie data."
+    },
     "animatedSolarSystem": {
         "title": "Animated 3D Solar System",
         "description": "An animated 3D solar system created using Three.js that visualises the planets rotating speed around the sun and their own axis. I have built this project during an internship at a web development company."

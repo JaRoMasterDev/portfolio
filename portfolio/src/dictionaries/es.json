@@ -19,6 +19,10 @@
       "title": "MyGainplan",
       "description": "Una aplicación de fitness basada en redes sociales que ayuda a los usuarios a gestionar y actualizar sus planes de entrenamiento. MyGainplan está construida con react-native, MySQL, node.js y express.js y es mi proyecto secundario más grande hasta ahora."
     },
+    "moviematch": {
+      "title": "Movie Match",
+      "description": "Una aplicación web que te ayuda a ti y a tu pareja a encontrar una película que puedan ver en su próxima noche de cine basada en sus preferencias. Movie Match está construida con next.js y TypeScript y utiliza la API de TMDb para obtener datos de películas."
+    },
     "animatedSolarSystem": {
       "title": "Sistema Solar 3D Animado",
       "description": "Un sistema solar 3D animado creado con Three.js que visualiza la velocidad de rotación de los planetas alrededor del sol y sobre su propio eje. He construido este proyecto durante una pasantía en una empresa de desarrollo web."
