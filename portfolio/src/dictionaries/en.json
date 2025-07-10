@@ -8,25 +8,29 @@
   },
   "about": {
     "whoIAm": "Who I am",
-    "school": "I am an 18 year old student from Germany who has just finished his high school degree (Abitur) with a focus on mathematics and computer science. Over the last 4 years I have built skills in several fields of development with a focus on web and app development. I have worked on several projects, some of which you are displayed below.",
+    "school": "I am an 19 year old student from Germany who has just finished his high school degree (Abitur) with a focus on mathematics and computer science. Over the last 5 years I have built skills in several fields of development with a focus on web and app development. I have worked on several projects, some of which you are displayed below.",
     "work": "Besides that I have been working as a junior developer at a local company since 2021 for a few hours a week while I was in school. There, I am working on a mobile app built with react-native.",
-    "university": "From Autumn 2025 I'll be studying computer science at a university. Until then, I am going to spend some time travelling through Spain while keeping my job as a junior developer. In addition to that, I am looking forward to meeting awesome people and working on some side projects to improve my skills."
+    "university": "From autumn 2025, I will be studying computer science at the Technical University of Munich. In the meantime, I have kept my job as an application developer and worked on some hobby projects."
   },
   "projects": {
     "whatIHaveWorkedOn": "What I have worked on",
     "description": "Here are some projects I have worked on over the past years",
+    "motomeet": {
+      "title": "MotoMeet",
+      "description": "A platform for motorcyclists that allows them to meet other riders and plan rides or meetups together. MotoMeet is built with Expo and Supabase and is my biggest side project so far."
+    },
     "mygainplan": {
       "title": "MyGainplan",
-      "description": "A social media based fitness app that helps users manage and update their workout plans. MyGainplan is build with react-native, MySQl, node.js and express.js and is my biggest side project so far."
+      "description": "A social media-based fitness app that helps users manage and update their workout plans. MyGainplan is built with react-native, MySQL, node.js, and express.js."
     },
     "moviematch": {
       "title": "Movie Match",
       "description": "A web app that helps you and your partner to find a movie you can watch on your next movie night based on your preferences. Movie Match is built with next.js and TypeScript and uses the TMDb API to fetch movie data."
     },
     "animatedSolarSystem": {
-        "title": "Animated 3D Solar System",
-        "description": "An animated 3D solar system created using Three.js that visualises the planets rotating speed around the sun and their own axis. I have built this project during an internship at a web development company."
-        },
+      "title": "Animated 3D Solar System",
+      "description": "An animated 3D solar system created using Three.js that visualises the planets rotating speed around the sun and their own axis. I have built this project during an internship at a web development company."
+    },
     "playground": {
       "title": "Playground",
       "description": "This is a page where I showcase this I've tried out and minigames I have built that have faced me with all kinds of new and interesting challenges"

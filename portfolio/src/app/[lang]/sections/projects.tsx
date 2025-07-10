@@ -1,4 +1,6 @@
 import React from "react";
+import MotoMeetIcon from "../../../../public/MotoMeetIcon.png";
+import MotoMeetScreenshot from "../../../../public/MotoMeetScreenshot.jpeg";
 import MyGainplan from "../../../../public/MyGainplanScreenshot.jpeg";
 import MyGainplanIcon from "../../../../public/MyGainplanIcon.png";
 import MovieNightIcon from "../../../../public/movienight-icon.svg";
@@ -13,6 +15,13 @@ export default function Projects({ dict }: { dict: Dictionary["projects"] }) {
     <section id="projects" className="w-full pb-16 md:pb-24">
       <h2 className="text-3xl mb-2">{dict.whatIHaveWorkedOn}</h2>
       <p>{dict.description}</p>
+      <Project
+        title={dict.motomeet.title}
+        description={dict.motomeet.description}
+        link="https://motomeet.app"
+        image={MotoMeetIcon}
+        hoverImage={MotoMeetScreenshot}
+      />
       <Project
         title={dict.mygainplan.title}
         description={dict.mygainplan.description}

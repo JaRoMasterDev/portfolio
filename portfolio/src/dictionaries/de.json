@@ -8,16 +8,20 @@
   },
   "about": {
     "whoIAm": "Wer ich bin",
-    "school": "Ich bin ein 18-jähriger Schüler aus Deutschland, der gerade sein Abitur mit den Leistungskursen Mathematik und Informatik abgeschlossen hat. In den letzten 4 Jahren habe ich Fähigkeiten in verschiedenen Bereichen der Entwicklung mit einem Schwerpunkt auf Web- und App-Entwicklung aufgebaut. Ich habe an verschiedenen Projekten gearbeitet, von denen einige unten dargestellt sind.",
+    "school": "Ich bin ein 19-jähriger Schüler aus Deutschland, der gerade sein Abitur mit den Leistungskursen Mathematik und Informatik abgeschlossen hat. In den letzten 5 Jahren habe ich Fähigkeiten in verschiedenen Bereichen der Entwicklung mit einem Schwerpunkt auf Web- und App-Entwicklung aufgebaut. Ich habe an verschiedenen Projekten gearbeitet, von denen einige unten dargestellt sind.",
     "work": "Außerdem arbeite ich seit 2021 für ein paar Stunden pro Woche als Junior-Entwickler bei einem lokalen Unternehmen, während ich in der Schule bin. Dort arbeite ich an einer mobilen App, die mit react-native entwickelt wird.",
-    "university": "Ab Herbst 2025 werde ich Informatik an einer Universität studieren. Bis dahin werde ich einige Zeit damit verbringen, durch Spanien zu reisen, während ich meinen Job als Junior-Entwickler beibehalte. Außerdem freue ich mich darauf, neue Leute kennenzulernen und an einigen Hobby-Projekten zu arbeiten, um meine Fähigkeiten zu verbessern"
+    "university": "Ab Herbst 2025 werde ich Informatik an der Technischen Universität München studieren. In der Zwischenzeit habe ich meine Job als Anwendungsentwickler beibehalten und an einigen Hobby-Projekten gearbeitet."
   },
   "projects": {
     "whatIHaveWorkedOn": "Was ich programmiert habe",
     "description": "Dies sind einige Projekte, an denen ich über die letzten Jahre gearbeitet habe.",
+    "motomeet": {
+      "title": "MotoMeet",
+      "description": "Eine Plattform für Motorradfahrer, die es ihnen ermöglicht, sich mit anderen Motorradfahrern zu treffen und gemeinsam Fahrten oder Treffen zu planen. MotoMeet ist mit Expo und supabase entwickelt und ist mein bisher größtes Nebenprojekt."
+    },
     "mygainplan": {
       "title": "MyGainplan",
-      "description": "Eine auf Social Media basierende Fitness-App, die Benutzern hilft, ihre Trainingspläne zu verwalten und zu aktualisieren. MyGainplan ist mit react-native, MySQl, node.js und express.js entwickelt und ist mein bisher größtes Nebenprojekt."
+      "description": "Eine auf Social Media basierende Fitness-App, die Benutzern hilft, ihre Trainingspläne zu verwalten und zu aktualisieren. MyGainplan ist mit react-native, MySQl, node.js und express.js entwickelt."
     },
     "moviematch": {
       "title": "Movie Match",

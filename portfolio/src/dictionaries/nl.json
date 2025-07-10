@@ -8,16 +8,20 @@
   },
   "about": {
     "whoIAm": "Wie ben ik",
-    "school": "Ik ben een 18-jarige student uit Duitsland die net zijn middelbare schooldiploma (Abitur) heeft behaald met een focus op wiskunde en informatica. De afgelopen 4 jaar heb ik vaardigheden opgebouwd in verschillende ontwikkelingsgebieden met een focus op web- en app-ontwikkeling. Ik heb gewerkt aan verschillende projecten, waarvan enkele hieronder worden weergegeven.",
+    "school": "Ik ben een 19-jarige student uit Duitsland die net zijn middelbare schooldiploma (Abitur) heeft behaald met een focus op wiskunde en informatica. De afgelopen 5 jaar heb ik vaardigheden opgebouwd in verschillende ontwikkelingsgebieden met een focus op web- en app-ontwikkeling. Ik heb gewerkt aan verschillende projecten, waarvan enkele hieronder worden weergegeven.",
     "work": "Daarnaast werk ik sinds 2021 als junior ontwikkelaar bij een lokaal bedrijf, een paar uur per week, terwijl ik op school zat. Daar werk ik aan een mobiele app gebouwd met react-native.",
-    "university": "Vanaf herfst 2025 ga ik informatica studeren aan de universiteit. Tot die tijd ga ik wat tijd doorbrengen met reizen door Spanje, terwijl ik mijn baan als junior ontwikkelaar behoud. Daarnaast kijk ik ernaar uit om geweldige mensen te ontmoeten en aan enkele zijprojecten te werken om mijn vaardigheden te verbeteren."
+    "university": "Vanaf het najaar van 2025 ga ik informatica studeren aan de Technische Universiteit München. In de tussentijd heb ik mijn baan als applicatieontwikkelaar behouden en aan enkele hobbyprojecten gewerkt."
   },
   "projects": {
     "whatIHaveWorkedOn": "Waar ik aan heb gewerkt",
     "description": "Hier zijn enkele projecten waaraan ik de afgelopen jaren heb gewerkt",
+    "motomeet": {
+      "title": "MotoMeet",
+      "description": "Een platform voor motorrijders waarmee ze andere motorrijders kunnen ontmoeten en samen ritten of bijeenkomsten kunnen plannen. MotoMeet is gebouwd met Expo en Supabase en is tot nu toe mijn grootste zijproject."
+    },
     "mygainplan": {
       "title": "MyGainplan",
-      "description": "Een op sociale media gebaseerde fitness-app die gebruikers helpt bij het beheren en bijwerken van hun trainingsplannen. MyGainplan is gebouwd met react-native, MySQL, node.js en express.js en is tot nu toe mijn grootste zijproject."
+      "description": "Een op sociale media gebaseerde fitness-app die gebruikers helpt bij het beheren en bijwerken van hun trainingsplannen. MyGainplan is gebouwd met react-native, MySQL, node.js en express.js."
     },
     "moviematch": {
       "title": "Movie Match",

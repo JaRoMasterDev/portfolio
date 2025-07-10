@@ -8,16 +8,20 @@
   },
   "about": {
     "whoIAm": "Quién soy",
-    "school": "Soy un estudiante alemán de 18 años que acaba de terminar su diploma de escuela secundaria (Abitur) con un enfoque en matemáticas e informática. En los últimos 4 años he desarrollado habilidades en varios campos del desarrollo con un enfoque en desarrollo web y de aplicaciones. He trabajado en varios proyectos, algunos de los cuales se muestran a continuación.",
+    "school": "Soy un estudiante alemán de 19 años que acaba de terminar su diploma de escuela secundaria (Abitur) con un enfoque en matemáticas e informática. En los últimos 5 años he desarrollado habilidades en varios campos del desarrollo con un enfoque en desarrollo web y de aplicaciones. He trabajado en varios proyectos, algunos de los cuales se muestran a continuación.",
     "work": "Además, he estado trabajando como desarrollador junior en una empresa local desde 2021 durante unas horas a la semana mientras estaba en la escuela. Allí, estoy trabajando en una aplicación móvil construida con react-native.",
-    "university": "A partir del otoño de 2025 estudiaré informática en la universidad. Hasta entonces, voy a pasar algún tiempo viajando por España mientras conservo mi trabajo como desarrollador junior. Además de eso, estoy deseando conocer gente increíble y trabajar en algunos proyectos secundarios para mejorar mis habilidades."
+    "university": "A partir del otoño de 2025 estudiaré informática en la Universidad Técnica de Múnich. Mientras tanto, he mantenido mi trabajo como desarrollador de aplicaciones y he trabajado en algunos proyectos de hobby."
   },
   "projects": {
     "whatIHaveWorkedOn": "En lo que he trabajado",
     "description": "Aquí hay algunos proyectos en los que he trabajado en los últimos años",
+    "motomeet": {
+      "title": "MotoMeet",
+      "description": "Una plataforma para motociclistas que les permite conocer a otros motociclistas y planificar paseos o encuentros juntos. MotoMeet está desarrollada con Expo y Supabase y es mi proyecto paralelo más grande hasta ahora."
+    },
     "mygainplan": {
       "title": "MyGainplan",
-      "description": "Una aplicación de fitness basada en redes sociales que ayuda a los usuarios a gestionar y actualizar sus planes de entrenamiento. MyGainplan está construida con react-native, MySQL, node.js y express.js y es mi proyecto secundario más grande hasta ahora."
+      "description": "Una aplicación de fitness basada en redes sociales que ayuda a los usuarios a gestionar y actualizar sus planes de entrenamiento. MyGainplan está desarrollada con react-native, MySQL, node.js y express.js."
     },
     "moviematch": {
       "title": "Movie Match",
