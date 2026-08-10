@@ -15,6 +15,10 @@
   "projects": {
     "whatIHaveWorkedOn": "Was ich programmiert habe",
     "description": "Dies sind einige Projekte, an denen ich über die letzten Jahre gearbeitet habe.",
+    "lolili": {
+      "title": "Lolili",
+      "description": "Eine App für die eigene Bücherwand: Bücher per Barcode scannen, in farbige Kategorien sortieren und im Blick behalten, wer sich gerade was ausgeliehen hat. Lolili ist mit SwiftUI und SwiftData für iPhone und iPad entwickelt."
+    },
     "motomeet": {
       "title": "MotoMeet",
       "description": "Eine Plattform für Motorradfahrer, die es ihnen ermöglicht, sich mit anderen Motorradfahrern zu treffen und gemeinsam Fahrten oder Treffen zu planen. MotoMeet ist mit Expo und supabase entwickelt und ist mein bisher größtes Nebenprojekt."

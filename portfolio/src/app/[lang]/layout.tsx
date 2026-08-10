@@ -41,7 +41,7 @@ export default async function RootLayout({
       </Head>
       <body className={inter.className + " flex flex-row"}>
         <LocaleSwitcher lang={params.lang} />
-        <SidebarNav dict={dict.nav} />
+        <SidebarNav dict={dict.nav} lang={params.lang} />
         <main className="w-full">
           {children} <Footer dict={dict.footer} />
         </main>

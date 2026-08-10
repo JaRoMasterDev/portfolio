@@ -15,6 +15,10 @@
   "projects": {
     "whatIHaveWorkedOn": "Waar ik aan heb gewerkt",
     "description": "Hier zijn enkele projecten waaraan ik de afgelopen jaren heb gewerkt",
+    "lolili": {
+      "title": "Lolili",
+      "description": "Een app voor je eigen boekenkast: scan boeken via de barcode, orden ze in gekleurde categorieën en houd bij wie wat heeft geleend. Lolili is gebouwd met SwiftUI en SwiftData voor iPhone en iPad."
+    },
     "motomeet": {
       "title": "MotoMeet",
       "description": "Een platform voor motorrijders waarmee ze andere motorrijders kunnen ontmoeten en samen ritten of bijeenkomsten kunnen plannen. MotoMeet is gebouwd met Expo en Supabase en is tot nu toe mijn grootste zijproject."

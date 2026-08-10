@@ -7,10 +7,18 @@ import MovieNightIcon from "../../../../public/movienight-icon.svg";
 import SolarSystemIcon from "../../../../public/SolarSystemIcon.png";
 import SolarSystemScreenshot from "../../../../public/SolarSystemScreenshot.jpeg";
 import PlaygroundIcon from "../../../../public/PlaygroundIcon.png";
+import LoliliIcon from "../../../../public/LoliliIcon.png";
 import Project from "@/app/[lang]/sections/Project";
 import { Dictionary } from "@/get-dictionary";
+import { Locale } from "@/i18n-config";
 
-export default function Projects({ dict }: { dict: Dictionary["projects"] }) {
+export default function Projects({
+  dict,
+  lang,
+}: {
+  dict: Dictionary["projects"];
+  lang: Locale;
+}) {
   return (
     <section id="projects" className="w-full pb-16 md:pb-24">
       <h2 className="text-3xl mb-2">{dict.whatIHaveWorkedOn}</h2>
@@ -21,6 +29,12 @@ export default function Projects({ dict }: { dict: Dictionary["projects"] }) {
         link="https://motomeet.app"
         image={MotoMeetIcon}
         hoverImage={MotoMeetScreenshot}
+      />
+      <Project
+        title={dict.lolili.title}
+        description={dict.lolili.description}
+        link={`/${lang}/lolili`}
+        image={LoliliIcon}
       />
       <Project
         title={dict.mygainplan.title}

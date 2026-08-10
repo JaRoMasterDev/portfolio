@@ -1,7 +1,9 @@
 "use client";
 import React, { RefObject, useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import type { Dictionary } from "@/get-dictionary";
+import type { Locale } from "@/i18n-config";
 
 function ListItem({
   href,
@@ -43,9 +45,16 @@ function ListItem({
   );
 }
 
-export default function SidebarNav({ dict }: { dict: Dictionary["nav"] }) {
+export default function SidebarNav({
+  dict,
+  lang,
+}: {
+  dict: Dictionary["nav"];
+  lang: Locale;
+}) {
   const [selectedId, setSelectedId] = useState("about");
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   const sections = useRef<{ id: string; title: string }[]>([
     { id: "about", title: dict.about },
@@ -55,24 +64,32 @@ export default function SidebarNav({ dict }: { dict: Dictionary["nav"] }) {
   ]);
 
   useEffect(() => {
-    const sections = Array.from(document.querySelectorAll("section"));
-
-    const windowHeight = window.innerHeight;
-
-    window.addEventListener("scroll", () => {
+    // The sections are looked up on every run instead of once on mount:
+    // this component lives in the layout and survives client side
+    // navigation, so anything captured on mount would point at the
+    // previous page's DOM after a route change.
+    const updateSelected = () => {
       const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+
       let selectedId = "";
-      sections.forEach((section) => {
-        const { offsetTop } = section;
-        if (offsetTop <= scrollPosition + windowHeight / 2) {
+      document.querySelectorAll("section").forEach((section) => {
+        if (section.offsetTop <= scrollPosition + windowHeight / 2) {
           selectedId = section.id;
         }
       });
       setSelectedId(selectedId);
-    });
+    };
 
-    return () => window.removeEventListener("scroll", () => {});
-  }, []);
+    updateSelected();
+    window.addEventListener("scroll", updateSelected, { passive: true });
+    window.addEventListener("resize", updateSelected);
+
+    return () => {
+      window.removeEventListener("scroll", updateSelected);
+      window.removeEventListener("resize", updateSelected);
+    };
+  }, [pathname]);
 
   return (
     <nav className="fixed flex bottom-0 top-0 z-10 pb-[5%] pt-[5%] justify-center">
@@ -82,7 +99,7 @@ export default function SidebarNav({ dict }: { dict: Dictionary["nav"] }) {
         {sections.current.map((section) => (
           <ListItem
             key={section.id}
-            href={`#${section.id}`}
+            href={`/${lang}#${section.id}`}
             title={section.title}
             selected={selectedId === section.id}
             isOpen={isOpen}

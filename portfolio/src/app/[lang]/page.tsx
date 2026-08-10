@@ -32,7 +32,7 @@ export default async function Home({
         {dictionary.title.development}
       </h2>
       <About dict={dictionary.about} />
-      <Projects dict={dictionary.projects} />
+      <Projects dict={dictionary.projects} lang={lang} />
       <TechStack dict={dictionary.techstack} />
       <Contact dict={dictionary.contact} />
     </PageWrapper>
