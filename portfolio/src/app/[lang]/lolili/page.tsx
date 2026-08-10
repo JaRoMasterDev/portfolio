@@ -83,7 +83,7 @@ export default function LoliliPage({
         </Link>
       </section>
 
-      <section className="w-full pb-16 md:pb-24">
+      <section id="support" className="w-full pb-16 md:pb-24 scroll-mt-8">
         <h2 className="text-3xl mb-2">{t.supportTitle}</h2>
         <p className="leading-7">{t.supportText}</p>
         <Link
