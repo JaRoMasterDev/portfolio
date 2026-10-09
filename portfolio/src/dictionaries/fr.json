@@ -8,9 +8,9 @@
   },
   "about": {
     "whoIAm": "Qui je suis",
-    "school": "Je suis un étudiant de 19 ans d'Allemagne qui vient de terminer son diplôme de lycée (Abitur) avec une spécialisation en mathématiques et en informatique. Au cours des 5 dernières années, j'ai acquis des compétences dans plusieurs domaines du développement avec une focalisation sur le développement web et d'applications. J'ai travaillé sur plusieurs projets, dont certains sont affichés ci-dessous.",
-    "work": "En plus de cela, je travaille comme développeur junior dans une entreprise locale depuis 2021 pour quelques heures par semaine pendant que j'étais à l'école. Là, je travaille sur une application mobile construite avec react-native.",
-    "university": "À partir de l'automne 2025, j'étudierai l'informatique à l'Université technique de Munich. En attendant, j'ai gardé mon emploi de développeur d'applications et travaillé sur quelques projets personnels."
+    "school": "Je suis un étudiant en informatique allemand de 20 ans, vivant actuellement à Munich. Au cours des dernières années, j'ai acquis des compétences dans plusieurs domaines du développement avec une focalisation sur le développement web et d'applications. J'ai travaillé sur plusieurs projets, dont certains sont affichés ci-dessous.",
+    "work": "Depuis août 2026, je travaille à temps partiel comme développeur full stack chez Lively Apps à Munich. Auparavant, j'ai travaillé comme développeur full stack chez upmesh de novembre 2021 à août 2026, où j'ai principalement travaillé sur une application mobile construite avec react-native, en parallèle de l'école puis de l'université.",
+    "university": "Depuis l'automne 2025, j'étudie l'informatique (licence) à l'Université technique de Munich. Pendant mon temps libre, je continue à travailler sur des projets personnels comme ceux présentés ci-dessous."
   },
   "projects": {
     "whatIHaveWorkedOn": "Sur quoi j'ai travaillé",

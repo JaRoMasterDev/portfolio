@@ -8,9 +8,9 @@
   },
   "about": {
     "whoIAm": "Who I am",
-    "school": "I am an 19 year old student from Germany who has just finished his high school degree (Abitur) with a focus on mathematics and computer science. Over the last 5 years I have built skills in several fields of development with a focus on web and app development. I have worked on several projects, some of which you are displayed below.",
-    "work": "Besides that I have been working as a junior developer at a local company since 2021 for a few hours a week while I was in school. There, I am working on a mobile app built with react-native.",
-    "university": "From autumn 2025, I will be studying computer science at the Technical University of Munich. In the meantime, I have kept my job as an application developer and worked on some hobby projects."
+    "school": "I am a 20 year old computer science student from Germany, currently living in Munich. Over the past years I have built skills in several fields of development with a focus on web and app development. I have worked on several projects, some of which are displayed below.",
+    "work": "Since August 2026 I have been working part-time as a full stack developer at Lively Apps in Munich. Before that, I worked as a full stack developer at upmesh from November 2021 to August 2026, where I mainly worked on a mobile app built with react-native alongside school and university.",
+    "university": "Since autumn 2025, I have been studying computer science (B.Sc.) at the Technical University of Munich. In my free time, I keep working on hobby projects like the ones below."
   },
   "projects": {
     "whatIHaveWorkedOn": "What I have worked on",

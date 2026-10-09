@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaHeart } from "react-icons/fa6";
+import { FaHeart, FaLinkedin } from "react-icons/fa6";
 import Instagram from "../../public/instagram.svg";
 import GitHub from "../../public/github-logo.svg";
 import type { Dictionary } from "@/get-dictionary";
@@ -25,6 +25,13 @@ export default function Footer({ dict }: { dict: Dictionary["footer"] }) {
           </Link>
           <Link href="https://github.com/JaRoMasterDev" target="_blanc">
             <Image src={GitHub} alt="GitHub" width={30} height={30} />
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/jarne-rolf/"
+            target="_blanc"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin color="white" size={30} />
           </Link>
         </div>
         <p className="flex items-center text-white">
